@@ -1,9 +1,9 @@
 # Coveo Community API
 innovate spring 2020
 
+_Dependencies_
+For now, you need to setup the mysql database manually. There is some scripts in the repos to create the tables and the seeding.
 
-
-# Coveo Community Hackathon
 
 _Setup_
 
