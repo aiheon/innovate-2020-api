@@ -2,7 +2,9 @@
 innovate spring 2020
 
 _Dependencies_
+```bash
 For now, you need to setup the mysql database manually. There is some scripts in the repos to create the tables and the seeding.
+```
 
 
 _Setup_
