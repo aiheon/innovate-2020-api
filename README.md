@@ -3,9 +3,9 @@ innovate spring 2020
 
 _Dependencies_
 ```bash
-For now, you need to setup the mysql database manually. There is some scripts in the repos to create the tables and the seeding.
+For now, you need to setup the mysql database manually. 
+There is some scripts in the repos to create the tables and the seeding.
 ```
-
 
 _Setup_
 
@@ -17,7 +17,7 @@ _Server commands_
 ```bash
 DEBUG=myapp:* npm start   # to start the server
 Crtl c                    # to stop the server
-
 ```
 
+http://localhost:3000/ to get to the server page
 
