@@ -3,8 +3,19 @@ innovate spring 2020
 
 
 
+# Coveo Community Hackathon
+
+_Setup_
+
+```bash
+npm install # to install dependencies
+```
+
+_Server commands_
+```bash
+DEBUG=myapp:* npm start   # to start the server
+Crtl c                    # to stop the server
+
+```
 
 
-
-To laucnh the server: DEBUG=myapp:* npm start
-To stop the server: ctrl c
