@@ -8,11 +8,9 @@
     "operatorsAliases": 0
   },
     "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
-    "operatorsAliases": false
+    "HOST": "us-cdbr-iron-east-01.cleardb.net",
+    "PASSWORD": "0c65dfc3",
+    "DB": "heroku_c8c4652108061d1?reconnect=true",
+    "USER": "b2e4f22df00052"
   }
 }
