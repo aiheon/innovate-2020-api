@@ -1,0 +1,29 @@
+INSERT INTO coveocommunitydb.projects 
+(
+  title, 
+  shortDescription, 
+  longDescription, 
+  submission_date, 
+  city, 
+  country, 
+  category, 
+  sponsor_relation, 
+  website_url, 
+  twitter_url, 
+  linkdin_url, 
+  email
+)
+VALUES 
+(
+  'My first projects',
+  'Lorem corpus', 
+  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit arcu suscipit, varius augue ac, finibus neque. Phasellus bibendum ipsum libero, at lobortis neque interdum vel. Praesent aliquam justo vel hendrerit aliquet. Morbi semper massa ligula, vitae efficitur odio tempor nec. Duis sagittis at nisi id tempus. Phasellus rutrum justo in fringilla ullamcorper. Ut nibh ipsum, tincidunt quis pretium vel, malesuada in leo. Praesent lacinia lacinia erat sit amet tristique. Vestibulum rutrum pretium consectetur. Nam lobortis, neque id volutpat tincidunt, enim augue porta mauris, eu pretium risus diam nec neque. Donec pretium nisl dolor, eu interdum lorem imperdiet nec. Nullam blandit lacus orci, a lobortis libero laoreet pulvinar. Suspendisse potenti. Etiam sed augue eu lacus viverra suscipit et vel dolor. Nunc pretium blandit diam.', 
+  now(), 
+  'Quebec', 
+  'Canada', 
+  'Finance', 
+  'Family', 
+  'www.mysuperwebsite.com', 
+  '', 
+  '', 
+  'test@test.com');
