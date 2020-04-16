@@ -1,21 +1,22 @@
 const express = require('express');
-
-// routes
-const projectsRoute = require('./routes/projects');
+const app = express();
+const db = require("./models");
+const PORT = process.env.PORT || 3000;
+var bodyParser = require('body-parser')
 
 
 // app using
-const app = express();
-app.use(express.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json())
 
 
-// use routes
+// routes
+const projectsRoute = require('./routes/projects');
 app.use('/api/projects', projectsRoute);
 
 
-
-
- // listening to port 3000
-app.listen(process.env.PORT || '3000', () => {
-  console.log(`Server is runnig on port: ${process.env.PORT || '3000'}`);
+db.sequelize.sync().then(() => {
+  app.listen(PORT, () => {
+    console.log(`listening on: http://localhost:${PORT}`);
+  });
 });
